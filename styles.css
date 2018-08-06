@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    color: rgb(109, 179, 6);
+    text-align: center;
+    font-weight: 850;
+}
+p {
+    color: darkslategray
+}
