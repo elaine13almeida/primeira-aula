@@ -9,5 +9,12 @@ h1, h2{
     font-weight: 850;
 }
 p {
-    color: darkslategray
+    margin-left: 10px;
+}
+button{
+    border: solid green 2px;
+    background-color: white;
+    border-radius: 10%; 
+     padding: 10px; /*espaço de dentro */
+    color: green;
 }
