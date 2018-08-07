@@ -2,11 +2,18 @@ body{
     margin: 0;
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-h1, h2{
+h1{
     color: rgb(109, 179, 6);
     text-align: center;
     font-weight: 850;
+}
+h2{
+    color:gray;
+    text-align: center;
+    font-weight: 350;
 }
 p {
     margin-left: 10px;
@@ -17,4 +24,54 @@ button{
     border-radius: 10%; 
      padding: 10px; /*espaço de dentro */
     color: green;
+}
+.legenda{
+    color: darkgray;
+    font-size: 15px;/*tamanho da fonte*/
+    font-style: italic;
+}
+.rodape{
+    background-color: darkgreen;
+    display: flex;
+    height: 150px;
+}
+#especial{
+    border: solid red 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100px;
+    background-color: darkgreen;
+    }
+    .menu a {
+        font-size: 15px;
+        text-decoration: none;/* para retirar o traço do link*/
+        margin-left: 15px; /*levou todos os links para a esquerda*/
+        color:white; /* utilizar o color picker para selecionar cor*/
+    }
+    .menu img{
+        width: 120px;
+        height: 50px;
+        float: right;/*colocou a img para direita*/
+        padding-right: 15px; /*espaçamento  interno*/
+    }
+#gato{
+    width: 560px;
+    height: 315px;
+    margin-left: 10px; 
+}
+div{
+    width: 80vw;
+    background-color: white;
+    margin: 0 auto; /*ajuda a centralizar.... a famosa gambiarra*/
+}
+
+iframe{
+    margin-left: 10px;
 }
